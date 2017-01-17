@@ -1,0 +1,19 @@
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1400px;
+    height: 1010px;
+}
+
+header {
+    width: 1020px;
+    height: 380px;
+    margin: auto;
+}
+
+main {
+    width: 1020px;
+    height: 630px;
+    margin: auto;
+}
