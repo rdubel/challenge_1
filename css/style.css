@@ -85,6 +85,12 @@ main {
     height: 90px;
     margin: auto;
     text-align: center;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    color: #7a7a7a;
+    padding: 3em;
+    line-height: 171%;
+    word-spacing: 17px;
 }
 
 .articles img {
