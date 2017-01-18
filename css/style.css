@@ -22,7 +22,10 @@ header {
 h1 {
     font-size: 133px;
     font-family: 'Josefin Sans', sans-serif;
-
+    text-align: center;
+    color: #cfa205;
+    font-weight: normal;
+    text-transform: uppercase;
 
 }
 
@@ -30,41 +33,36 @@ h2 {
     font-family: 'Bitter', serif;
     margin-bottom: 2em;
     margin-top: 1em;
+    text-align: center;
+    color: #cfa205;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 h3 {
     margin-top: 1em;
-}
-
-h1, h2 {
-    text-align: center;
-    color: #cfa205;
-    font-weight: normal;
-
-}
-
-h2, h3 {
     font-size: 18px;
-}
-
-h1, h2, h3, .navlist {
     text-transform: uppercase;
 }
-
-.navlist {
+.foo a {
+    color: #cfa205;
+}
+nav ul {
     height: 60px;
     text-align: center;
     margin-bottom: 2em;
+    text-transform: uppercase;
 
 }
 
-.navlist li {
+nav ul li {
     display: inline-block;
     padding: 1em;
+
 }
 
-
-.navlist a {
+nav ul li a {
     text-decoration: none;
     color: #e8e8e8;
     font-family: 'Josefin Sans', sans-serif;
@@ -72,10 +70,6 @@ h1, h2, h3, .navlist {
 
 }
 
-.navlist a:active {
-    color: #cfa205;
-
-}
 
 body header > ul {
     height: 60px;
@@ -85,6 +79,22 @@ body header > ul {
 
 body header > ul li {
     display: inline-block;
+    color: grey;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 3em;
+    margin-top: 1em;
+
+}
+
+#fb {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+i {
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 main {
@@ -105,9 +115,7 @@ main {
     font-weight: bold;
     color: #7a7a7a;
     line-height: 170%;
-    word-spacing: 5px;
-    letter-spacing: 2px;
-    border-bottom: 1px solid #7a7a7a;
+    border-bottom: 1px solid #e5e5e5;
 
 }
 
