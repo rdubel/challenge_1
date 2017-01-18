@@ -99,12 +99,12 @@ i {
 
 main {
     width: 1020px;
-    height: 630px;
+    height: auto: ;
     margin: auto;
     background-color: white;
 }
 
-.baseline {
+main > p {
     width: 900px;
     height: 90px;
     margin: auto;
@@ -146,4 +146,28 @@ main {
 
 .bugged {
     margin: 3.43em;
+}
+
+form {
+    width: 70%;
+    margin: auto;
+}
+
+label {
+    text-align: left;
+    color: rgb(130, 134, 145);
+    display: inline-block;
+    width: 10em;
+}
+
+.information {
+    font-weight: bold;
+}
+
+form label {
+    width: 22em;
+}
+
+fieldset {
+    border-radius: 0.5em;
 }
