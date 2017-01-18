@@ -125,11 +125,6 @@ main > p {
     margin: auto;
 }
 
-.articles img {
-    width: 260px;
-    height: 195px;
-}
-
 .articles article {
     height: 675px;
     width: 260px;
@@ -166,8 +161,49 @@ label {
 
 form label {
     width: 22em;
+    padding: 1em;
 }
 
 fieldset {
-    border-radius: 0.5em;
+    background-color: #120C04;
+    font-family: 'Bitter', serif;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 5px;
+    color:  #e8e8e8;
+}
+
+fieldset fieldset {
+    background-color: #120C04;
+    width: 90%
+    margin: auto;
+
+}
+
+legend {
+    color: rgb(223, 182, 9);
+}
+
+.gender {
+    color:  #e8e8e8;
+}
+
+main > h3 {
+    padding-top: 1em;
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    color:  #7a7a7a;
+}
+
+form > input {
+    color: rgb(223, 182, 9);
+    border-radius: 5px;
+    background-color: #120C04;
+    margin: 1em;
+    padding: 1em;
+}
+textarea {
+    margin-left: 9em;
+    margin-bottom: 2em;
 }
