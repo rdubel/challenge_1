@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
     background-image: url(../images/bg.jpg);
@@ -28,6 +32,10 @@ h2 {
     margin-top: 1em;
 }
 
+h3 {
+    margin-top: 1em;
+}
+
 h1, h2 {
     text-align: center;
     color: #cfa205;
@@ -55,11 +63,17 @@ h1, h2, h3, .navlist {
     padding: 1em;
 }
 
+
 .navlist a {
     text-decoration: none;
     color: #e8e8e8;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
+
+}
+
+.navlist a:active {
+    color: #cfa205;
 
 }
 
@@ -84,13 +98,23 @@ main {
     width: 900px;
     height: 90px;
     margin: auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
     text-align: center;
     font-family: 'Bitter', serif;
     font-weight: bold;
     color: #7a7a7a;
-    padding: 3em;
-    line-height: 171%;
-    word-spacing: 17px;
+    line-height: 170%;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #7a7a7a;
+
+}
+
+.articles {
+    width: 900px;
+    height: 675px;
+    margin: auto;
 }
 
 .articles img {
@@ -98,21 +122,20 @@ main {
     height: 195px;
 }
 
-.articles {
-    margin: auto;
+.articles article {
     height: 675px;
     width: 260px;
     display: inline-block;
+    font-family: 'Bitter', serif;
+
 }
 
+.articles p {
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-top: 1em;
+}
 
-
-
-
-
-
-
-* {
-    margin: 0px;
-    padding: 0px;
+.bugged {
+    margin: 3.43em;
 }
