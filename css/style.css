@@ -99,7 +99,7 @@ i {
 
 main {
     width: 1020px;
-    height: auto: ;
+    height: auto;
     margin: auto;
     background-color: white;
 }
@@ -175,9 +175,8 @@ fieldset {
 
 fieldset fieldset {
     background-color: #120C04;
-    width: 90%
     margin: auto;
-    border-radius: 0px;
+
 
 }
 
